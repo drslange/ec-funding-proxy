@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/detail/:id/text", "destination": "/api/detail?id=:id&format=html" },
+    { "source": "/detail/:id",      "destination": "/api/detail?id=:id" },
+    { "source": "/calls/text",      "destination": "/api/calls?format=html" },
+    { "source": "/calls",           "destination": "/api/calls" }
+  ]
+}
